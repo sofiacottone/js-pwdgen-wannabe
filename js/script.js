@@ -15,6 +15,10 @@ console.log(userSurname);
 const userFavCol = prompt('What\'s your favourite colour?');
 console.log(userFavCol);
 
+//Chiedere un numero all'utente
+const userNumber = prompt('Chose a number between 1 and 100');
+console.log(userNumber);
+
 // DATA STORAGE TEMPORANEO
 // Inserire il nome utente nell'html
 document.getElementById('userNameDisplay').innerHTML = userName;
@@ -25,9 +29,20 @@ document.getElementById('userSurnameDisplay').innerHTML = userSurname;
 // Inserire il colore preferito dell'utente nell'html
 document.getElementById('userFavColDisplay').innerHTML = userFavCol;
 
+// Inserire il numero scelto dall'utente nell'html
+document.getElementById('userNumberDisplay').innerHTML = userNumber;
+
+// Convertire la stringa in numero
+let userNumberAsNumeric = parseInt(userNumber);
+console.log(userNumberAsNumeric);
+
+// Eseguire la somma
+let sum = userNumberAsNumeric + 23;
+console.log(sum);
+
 // LOGICA
 // Generare la password con i dati forniti dall'utente
-let userPsw = userName + userSurname + userFavCol + '23';
+let userPsw = userName + userSurname + userFavCol + sum;
 console.log(userPsw);
 
 // OUTPUT
