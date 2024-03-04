@@ -11,17 +11,32 @@
     <title>Password Generator</title>
 </head>
 
-<body>
-    <h1>Password Generator</h1>
+<body class="bg-success-subtle">
+    <div class="container-fluid">
+        <h1 class="text-info-emphasis">Password Generator</h1>
 
-    <div id="userName">Your Name:</div>
-    <span id="userNameDisplay"></span>
-    <div id="userSurname">Your Surname:</div>
-    <span id="userSurnameDisplay"></span>
-    <div id="userFavCol">Your Favourite Colour:</div>
-    <span id="userFavColDisplay"></span>
-    <div id="userPsw">Your Password:</div>
-    <span id="userPswDisplay"></span>
+        <div class="card mb-2 bg-info-subtle">
+            <div id="userName" class="h6 pt-1">Your Name:</div>
+            <div id="userNameDisplay"></div>
+        </div>
+
+        <div class="card mb-2 bg-info-subtle">
+            <div id="userSurname" class="h6 pt-1">Your Surname:</div>
+            <span id="userSurnameDisplay"></span>
+        </div>
+
+        <div class="card mb-2 bg-info-subtle">
+            <div id="userFavCol" class="h6 pt-1">Your Favourite Colour:</div>
+            <span id="userFavColDisplay"></span>
+        </div>
+
+        <div class="card bg-info-subtle">
+            <div id="userPsw" class="h6 pt-1 text-success">Your Password:</div>
+            <span id="userPswDisplay"></span>
+        </div>
+
+
+    </div>
 
 
     <script type="text/javascript" src="js/script.js"></script>
