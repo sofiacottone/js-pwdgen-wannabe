@@ -12,27 +12,29 @@
 </head>
 
 <body class="bg-success-subtle">
-    <div class="container-fluid">
+    <div class="container-fluid text-center">
         <h1 class="text-info-emphasis">Password Generator</h1>
+        <div class="d-flex flex-column align-items-center">
+            <div class="card mb-2 bg-info-subtle w-50">
+                <div id="userName" class="h6 pt-1">Your Name:</div>
+                <div id="userNameDisplay"></div>
+            </div>
 
-        <div class="card mb-2 bg-info-subtle">
-            <div id="userName" class="h6 pt-1">Your Name:</div>
-            <div id="userNameDisplay"></div>
-        </div>
+            <div class="card mb-2 bg-info-subtle w-50">
+                <div id="userSurname" class="h6 pt-1">Your Surname:</div>
+                <span id="userSurnameDisplay"></span>
+            </div>
 
-        <div class="card mb-2 bg-info-subtle">
-            <div id="userSurname" class="h6 pt-1">Your Surname:</div>
-            <span id="userSurnameDisplay"></span>
-        </div>
+            <div class="card mb-2 bg-info-subtle w-50">
+                <div id="userFavCol" class="h6 pt-1">Your Favourite Colour:</div>
+                <span id="userFavColDisplay"></span>
+            </div>
 
-        <div class="card mb-2 bg-info-subtle">
-            <div id="userFavCol" class="h6 pt-1">Your Favourite Colour:</div>
-            <span id="userFavColDisplay"></span>
-        </div>
+            <div class="card bg-info-subtle w-50">
+                <div id="userPsw" class="h6 pt-1 text-success">Your Password:</div>
+                <span id="userPswDisplay"></span>
+            </div>
 
-        <div class="card bg-info-subtle">
-            <div id="userPsw" class="h6 pt-1 text-success">Your Password:</div>
-            <span id="userPswDisplay"></span>
         </div>
 
 
